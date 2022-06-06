@@ -1,7 +1,9 @@
-#container2 {
+.contenedor2 {
+  display: flexbox;
+  width: 60%;
 }
 h3 {
-  color: rgb(11, 11, 179);
+  color: rgb(76, 76, 148);
 }
 .box {
   background-color: paleturquoise;
@@ -15,4 +17,10 @@ div {
   display: inline-block;
   margin: 5px;
   border: 10px;
+}
+body {
+  font-family: "Gentium Plus", serif;
+}
+#name {
+  color: rgb(15, 155, 143);
 }
